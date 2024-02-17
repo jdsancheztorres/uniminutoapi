@@ -1,7 +1,8 @@
 import pymongo
  
-#MONGODB_URL = "mongodb+srv://jdsancheztorres:TFlzRm5H6WwUf81P@cluster0.tznz8jb.mongodb.net/?retryWrites=true&w=majority"
-MONGODB_URL = "mongodb://danilo:password@localhost:27017/uniminuto?retryWrites=true&w=majority"
+#https://estudiantes.onrender.com/docs
+MONGODB_URL = "mongodb+srv://danilo:uniminuto2024@cluster0.1wfcup2.mongodb.net/?retryWrites=true&w=majority"
+#MONGODB_URL = "mongodb://danilo:password@localhost:27017/uniminuto?retryWrites=true&w=majority"
 
 class BaseDeDatos():
     def __init__(self) -> None:

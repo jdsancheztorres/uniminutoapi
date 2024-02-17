@@ -13,6 +13,7 @@ class BaseDeDatos():
         if self.connection_is_active == False:
             
             try:
+                print(MONGODB_URL)
                 self.engine = pymongo.MongoClient(MONGODB_URL)
                 return self.engine
             except Exception as ex:
